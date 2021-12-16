@@ -1,20 +1,17 @@
 {
-  "name": "moltobene_landing",
+  "name": " ",
   "version": "0.0.1",
   "description": "",
   "keywords": "",
   "license": "",
-  "author": "laba biennio2",
+  "author": "",
   "scripts": {
     "build": "parcel build index.html",
     "dev": "parcel index.html --open",
     "start": "npm run build && npm run dev",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "predeploy": "rm -rf dist && parcel build ./*.html --public-url https://labait.github.io/moltobene_landing/",
-    "deploy": "gh-pages -d dist"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3",
     "parcel-bundler": "^1.12.4"
   }
 }

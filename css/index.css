@@ -45,11 +45,6 @@ p:last-child {
   margin-bottom: 0;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 .z-1 {
   z-index: -1;
 }
@@ -80,7 +75,17 @@ img {
   z-index: 10;
 }
 
-.issue--cover {
+ul img{
+  width: 30px;
+}
 
+.header-cta{
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+}
 
+.header-cta span{
+  text-decoration: underline;
+  padding: 0px 3px;
 }
