@@ -1,5 +1,8 @@
 html {
   font-size: 16px;
+  background: #F0E04B url(../img/bg.jpeg) center top no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 body {
